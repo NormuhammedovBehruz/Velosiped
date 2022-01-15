@@ -1,0 +1,98 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #1e856f;
+}
+
+/* Main */
+
+.container {
+}
+
+.content {
+    background-color: #fff;
+    padding: 50px 50px 0px 50px;
+    overflow: hidden;
+    height: 520px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content-heading {
+    margin: 0;
+    margin-right: auto;
+}
+
+.content-logo {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #505253;
+}
+
+.main-content-hero {
+    padding: 0;
+    margin: 0;
+}
+
+.content-text {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(179, 169, 169);
+}
+
+.hero-content-main {
+    display: flex;
+    margin-right: auto;
+}
+
+.hero-content-heading {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #7e7e7e;
+}
+
+.hero-content-heding {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(75, 72, 72);
+}
+
+.content-span {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content-img {
+    margin-top: -100px;
+}
